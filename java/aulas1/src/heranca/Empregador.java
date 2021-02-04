@@ -38,7 +38,7 @@ public class Empregador extends Pessoa {
 		}
 		
 		public double calcularSalario() {
-				return salarioBase + (imposto/100) * salarioBase;
+				return salarioBase - (imposto/100) * salarioBase;
 		}
 
 }
